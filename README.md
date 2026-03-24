@@ -19,6 +19,7 @@ Bookbot is a beginner-friendly Python project focused on core programming fundam
 
 ```bash
 python3 main.py books/frankenstein.txt
+```
 
 ## Example Output
 
