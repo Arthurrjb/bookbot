@@ -22,7 +22,7 @@ python3 main.py books/frankenstein.txt
 ```
 
 ## Example Output
-
+```bash
 ============ BOOKBOT ============
 Analyzing book found at books/frankenstein.txt...
 ----------- Word Count ----------
@@ -33,8 +33,11 @@ b: 4868
 c: 9011
 ...
 ============= END ===============
+```
 
 ## Project Structure
+
+```bash
 .
 ├── main.py
 ├── stats.py
@@ -43,13 +46,14 @@ c: 9011
 │   ├── mobydick.txt
 │   └── prideandprejudice.txt
 └── README.md
+```
 
 ## How It Works
 main.py handles command-line input and prints the report
 stats.py contains the logic for:
-counting words
-counting characters
-sorting character data
+- counting words
+- counting characters
+- sorting character data
 
 ## Requirements
 Python 3
@@ -58,21 +62,23 @@ Python 3
 Clone the repository
 Navigate into the project folder
 Run:
+```bash
 python3 main.py books/frankenstein.txt
+```
 
 ## What This Project Demonstrates
-Writing modular Python code
-Working with text files and file paths
-Parsing and analyzing text data
-Using dictionaries for frequency counting
-Sorting structured data for reporting
-Building simple CLI applications
+- Writing modular Python code
+- Working with text files and file paths
+- Parsing and analyzing text data
+- Using dictionaries for frequency counting
+- Sorting structured data for reporting
+- Building simple CLI applications
 
 ## Possible Improvements
-Ignore uppercase/lowercase differences more explicitly
-Filter out non-letter characters
-Export results to a file
-Add tests
+- Ignore uppercase/lowercase differences more explicitly
+- Filter out non-letter characters
+- Export results to a file
+- Add tests
 
 ## About
 This project was built as part of a Boot.dev backend learning project and serves as a practical introduction to building command-line tools in Python.
